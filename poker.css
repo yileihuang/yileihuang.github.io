@@ -1,0 +1,41 @@
+body {
+  width: 960px;
+  margin: 0 auto;
+  font-family: helvetica neue, arial, sans-serif;
+  color: black;
+  background-color: lightgray;
+  background-image: url(pokercards.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+img {
+vertical-align: top;
+}
+
+h2 {
+  border-bottom: 1px solid gray;
+}
+a { 
+  color: orange;
+}
+a:hover {
+  color: purple;
+}
+p, li { 
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#tb {
+  float: right;
+  border: 1px solid white;
+  text-align: left;
+  padding: 5px;
+  background-color: lightyellow;
+}
+.head {
+  background-color: lightgray;
+}
+

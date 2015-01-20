@@ -1,9 +1,25 @@
 body {
   font-family: 'helvetica neue', arial, sans-serif;
   font-weight: 300;
-  background: url(linedpaper.png) repeat;
+  background: url(linedpaper.jpg) repeat;
 }
 #wrapper {
   width: 960px;
   margin: 20px auto;
+}
+
+#summary {
+ clear: both;
+ border: 1px solid black;
+ background-color: black;
+ padding: 10px;  
+ margin-top: 10px;
+ color: grey
+}
+#sub1 {
+color: purple;
+font-size: 150%
+}
+img {
+float: right;
 }
