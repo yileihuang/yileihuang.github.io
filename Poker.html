@@ -1,8 +1,3 @@
-<!-- This is a comment. The web browser doesn't care what I put here. -->
-
-<!-- This is the document type. This line says that we're using HTML5. -->
-<!DOCTYPE html>
-
 <html>
 
 <!-- Head -->
@@ -17,17 +12,19 @@
 
 <!-- Body -->
 <body>
-<div class="container">
-  <div class="row">
-  <div class="col-sm-4">
-  <ul class="nav nav-pills">
-    <li role="presentation"><a href="index.html">Home</a></li>
-    <li role="presentation" class="active"><a href="poker.html">Hobby</a></li>
-    <li role="presentation"><a href="book.html">Favorate books</a></li>
+
+<div class="jumbotron">
+     <div class="container">
+      <div class="row">
+      <div class="col-sm-4">
+      <ul class="nav nav-pills">
+    <li role="presentation" class="active"><a href="poker.html">Poker</a></li>
+    <li role="presentation"><a href="rules.html">Rules</a></li>
+    <li role="presentation"><a href="players.html">Players</a></li>
   </ul>
   </div>
 
-  <div class="col-sm-offset-4 col-sm-4">
+ <div class="col-sm-offset-4 col-sm-4">
   <form class="navbar-form navbar-left" role="search">
         <div class="form-group">
           <input type="text" class="form-control" placeholder="Search">
@@ -36,128 +33,66 @@
   </form>
   </div>
   </div>
+
+  <div class="row">
+      <h1 class="text-center"> Welcome to the world of Texas Holdem</h1>
+      <h3 class="text-center"> One of the most fun mental games in the world!</h3>
+      <br>
   </div>
+  <div>
+</div>
+</div>
+</div>
 
 <div class="container">
-<h1 class="text-center"> Introduction to Unlimited Taxas Holdem  </h1>
 <div class="row">
-<div class="col-sm-5"> <img src="player1.jpg" width="400"> </div>
-<div class="col-sm-5 col-sm-offset-2"><img src="player2.jpg" width="400"></div>
+<div class="col-sm-3"> <img src="ivey.jpg" height="300"> </div>
+<div class="col-sm-3"><img src="hellmuth.jpg" height="300"></div>
+<div class="col-sm-3"> <img src="doyle.jpg" height="300"> </div>
+<div class="col-sm-3"><img src="lakk.jpg" height="300"></div>
+</div>
+<div class="row">br</div>
+</div>
+
+<div class="jumbotron" id="jumbo">
+     <div class="container">
+      <div class="row">
+      <h1 class="text-center" id="text"> Nothing is more important than knowing your opponent</h1>
+      </div>
+     </div>
+ </div>
+
+<div class="container">
 <div class="row">
+<div class="col-sm-6">
 <br>
-  <p>
-  As any other kind of poker unlimited holdem looks like a card game. But to tell you quite frankly that is not so. <br>
-  Really unlimited holdem is a game of bets, based on little information where cards are used to create a situation for bets. Players announce “bet” and “call” considering that in the end their own hands (which they can see) will turn out better than opponents’ hands (which they cannot see).
-  </p>
+<div class="js-video widescreen">
+	<iframe width="672" height="378" src="http://www.youtube.com/embed/kuW6kIsnZRg" frameborder="0" allowfullscreen></iframe>
+</div>
 </div>
 
-<div class="row">
-<h2> The basics of Texas Holdem </h2>
-<div class="progress">
-  <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
-    <span>30% Complete</span>
+<div class="col-sm-offset-2 col-sm-4">
+<h3 class="text-center"> Leave me a message </h3>
+<form action="mailto: yhuang2015@kellogg.northwestern.edu" method="post" enctype="text/plain">
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" class="form-control" id="name" name="Name" value="Your name">
   </div>
-</div>
-  <p> <b>The object.</b> like all gambling, the objective is to win money. With poker, you're trying to win the other players' money, not the casino's money. The casino makes its money by taking a rake, which is a small percentage of the money the players bet. Betting is done with standard casino-style chips. </p>
-  <p> <b>The play.</b> Unlike most casino games where you bet, get your cards, and then it's over, with Texas Holdem you get some cards, make a bet, get some more cards, bet again if you like, and continue this process a few more times. You can bail at any point, which is called folding. This saves you from having to keep kicking money in, but it means you forfeit any money you've already bet since you're no longer in the game.
-  <br>
-  If everyone else folds, the last person standing wins.  If there's more than one person still in the game at the end, then whoever has the best poker hand wins.  (More on that in a minute.)  What they win is the pot, which is all the money that all the players have bet that round—minus a rake (typically 5%), which is the commission the casino takes for hosting the game. </p>
-</div>
-
-<div class="row">
-<h2> Poker Hands Ranking </h2>
-<div class="progress">
-  <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-    <span>60% Complete</span>
+  <div class="form-group">
+    <label for="Email">Email address</label>
+    <input type="text" class="form-control" id="Email" name="Email" Value="Enter email">
   </div>
-</div>
-  <p> A poker hand consists of five cards. Here are how the hands are ranked, from worst to best. Note that it doesn't matter what order the cards are in. As long as you could rearrange them to be in order (in your head), then it's a winning hand. </p>
-</div>
+  <div class="form-group">
+    <label for="Comments">Comments</label>
+    <textarea class="form-control" id="Comments" name="Comment" rows="5"></textarea>
 
-<div class="row">
-
-<div class="col-sm-4">
-<table class="table table-striped">
-  <tr class="danger">
-    <th class="head"> Name of Hand </th>
-    <th class="head"> Examples </th> 
-  </tr>
-  <tr>
-    <td> Royal Flush </td>
-    <td> 10♦ J♦ Q♦ K♦ A♦ </td> 
-  </tr>
-  <tr class="success">
-    <td> Straight Flush </td>
-    <td> 7♦ 8♦ 9♦ 10♦ J♦ </td> 
-  </tr>
-  <tr>
-    <td> Four of a Kind </td>
-    <td> 3♦ 3♠ J♦ 3♣ 3♥ </td> 
-  </tr>
-  <tr class="success">
-    <td> Full House </td>
-    <td> E9♣ 9♥ 4♣ 4♥ 4♦ </td> 
-  </tr>
-  <tr>
-    <td> Flush </td>
-    <td> 9♣ Q♣ 10♣ 4♣ 6♣ </td> 
-  </tr>
-  <tr class="success">
-    <td> Straight </td>
-    <td> 6♣ 7♥ 8♣ 9♦ 10♠ </td> 
-  </tr>
-  <tr>
-    <td> Three of a Kind </td>
-    <td> 5♣ 5♥ 5♠ 9♦ 8♠ </td> 
-  </tr>
-  <tr class="success">
-    <td> Two Pair </td>
-    <td> 4♣ 4♥ 7♣ 7♦ Q♠ </td> 
-  </tr>
-  <tr>
-    <td> Pair </td>
-    <td> 9♣ 9♥ 5♣ 4♦ 3♠ </td> 
-  </tr>
-</table>
-</div>
-
-<div class="col-sm-8">
-<dl class="dl-horizontal">
-  <dt> High Card</dt> <dd> Absent any better hand listed below, whoever has the highest card wins. The highest cards, from lowest to highest, is Jack, Queen, King, Ace, which we abbreviate J, Q, K, A. The hand [K 7 5 4 3] beats the hand [Q 7 5 4 3] because king beats queen. If two players have the same high card then the second-highest card wins. So [K J 9 6 5] beats [K 10 9 6 5] because jack beats ten. If two players both have the same high card and second-highest card then you look at the third-highest card, and so on. </dd>
-  <dt> Pair</dt> <dd>A pair is a hand with two cards of the same rank, like [9 9 5 4 3]. A pair beats a high card even if the rank of the pair is lower. For example, [2 2 9 5 4] beats [A K Q J 9]. All those high cards are helpless against a pair of twos. If two players have a pair then the highest pair wins. If two players have the same pair then you look at the highest card outside the pair to see who wins. </dd>
-  <dt> Two Pair</dt> <dd> A hand like [4 4 7 7 Q]. Same disclaimers for breaking ties as for regular pairs. </dd>
-  <dt> Three of a Kind</dt> <dd> This is just what it sounds like, three cards of the same rank, like [5 5 5 9 8]. As with pairs, with multiple players have three of a kind then the highest one wins, and high cards break ties. </dd>
-  <dt> Straight</dt> <dd> A straight is a hand with consecutive ranks, like [6 7 8 9 10]. An ace can also count as 1 to complete a straight where the other cards are 2, 3, 4, and 5, or as a high card to complete a straight where the other cards are 10, J, Q, K. But it can't count as both a low and a high card, e.g., Q K A 2 3. </dd>
-  <dt> Flush</dt> <dd> All the cards are the same suit, like 9♣ Q♣ 10♣ 4♣ 6♣. </dd>
-  <dt> Full House</dt> <dd> A pair and a three of a kind, like 9♣ 9♥ 4♣ 4♥ 4♦. </dd>
-  <dt> Four of a Kind</dt> <dd> Four of the same rank, like 3♦ 3♠ J♦ 3♣ 3♥. </dd>
-  <dt> Straight flush</dt> <dd> A hand that's both a straight and a flush, like 7♦ 8♦ 9♦ 10♦ J♦. </dd>
-  <dt> Royal flush</dt> <dd> A straight flush composed of the highest cards, such as 10♦ J♣ Q♦ K♦ A♦. But of course they don't all have to be in order. Q♦ 10♦ A♦ J♣ K♦ is still a royal flush. The Royal Flush is the jackpot in video poker, and comes around about once out of every 40,000 or so hands -- or a week and a half of full-time play. (Hey, it could be worse: The jackpot on a typical slot machine only hits about one out of every 262,144 spins.) </dd>
-</dl>
-</div>
-
-
-
-</div>
-
-<h2> The Play </h2>
-<div class="progress">
-  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
-    <span>100% Complete</span>
   </div>
+  <input type="submit" class="btn btn-default" value="Submit"></input>
+</form>
+
 </div>
-<p> At long last, let's see how a round actually works. </p>
-<ol>
-
-  <li> <b> Posting the Blinds.</b> Two players each make a mandatory small bet before any cards are dealt. This ensures that there's something for everyone to play for if no one decides to bet after that. This responsibility rotates around the table from round to round so that everybody shares the burden of posting the blinds throughout the game. </li>
-  <li> <b> The Deal.</b> Each player gets two cards, face-down. These are called the hole cards. Players place their bets, or fold (bail out). </li>
-  <li> <b> The Flop.</b> Three community cards are dealt face up to the center of the table. Each player can use any or all of these cards along with his/her hole cards to make the best five-card hand. This is done in your head; nobody touches the community cards. The players bet again, or fold. </li>
-  <li> <b> The Turn.</b> (aka Fourth Street). A fourth community card is dealt. Hilarity, and more betting, ensues. </li>
-  <li> <b> The River.</b> The fifth and final community card is dealt. Followed by the customary betting. </li>
-  <li> <b> The Showdown.</b> Anyone still in the game (i.e., anyone who hasn't folded) puts their cards down face-up so all the players can see who won. The winner takes the pot, all the money that was bet during that round. </li>
-
-</ol>
-
+</div>
+</div>
 </body>
 
-</html>
+

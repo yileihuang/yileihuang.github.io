@@ -1,0 +1,32 @@
+body {
+  margin: 0 auto;
+  background-image: url(pokercards.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+img {
+vertical-align: top;
+}
+
+h2 {
+  border-bottom: 1px solid gray;
+}
+
+#tb {
+  float: right;
+  border: 1px solid white;
+  text-align: left;
+  padding: 5px;
+  background-color: lightyellow;
+}
+.head {
+  background-color: lightgray;
+}
+
+.jumbotron
+{
+  background-image: url(jumbo.gif);
+  color: white;
+}
