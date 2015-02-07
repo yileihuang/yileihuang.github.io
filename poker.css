@@ -1,0 +1,15 @@
+.jumbotron
+{
+  background-image: url(jumbo.gif);
+  color: white;
+}
+
+#jumbo
+{
+  background-image: url(Keyword.jpg);
+}
+
+#text
+{
+	color:red;
+}
